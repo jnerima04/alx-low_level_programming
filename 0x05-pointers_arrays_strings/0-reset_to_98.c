@@ -7,8 +7,7 @@
  * @n: This is the entry
  *
  * Return: (0)
- *
- * */
+*/
 
 void reset_to_98(int *n)
 
