@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * *rev_string - update value.
- * *@s: value to be evaluate.
- * *Return: not.
- * */
+ *rev_string - update value.
+ *@s: value to be evaluate.
+ *Return: not.
+*/
+
 void rev_string(char *s)
 {
 	int len = 0;
@@ -13,6 +14,7 @@ void rev_string(char *s)
 	int e = 0;
 	int x;
 	char n;
+
 	while (*y != '\0')
 	{
 		y++;
@@ -26,4 +28,4 @@ void rev_string(char *s)
 		s[e] = s[x];
 		s[x] = n;
 	}
-}i
+}
